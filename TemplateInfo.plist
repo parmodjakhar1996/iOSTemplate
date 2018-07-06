@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Kind</key>
+	<string>Xcode.IDEFoundation.TextSubstitutionFileTemplateKind</string>
+	<key>Options</key>
+	<array>
+		<dict>
+			<key>Identifier</key>
+			<string>productName</string>
+			<key>Required</key>
+			<true/>
+			<key>Name</key>
+			<string>Controller:</string>
+			<key>Description</key>
+			<string>The name of the Custom Table View Controller</string>
+			<key>Type</key>
+			<string>text</string>
+			<key>Default</key>
+			<string>CustomTableViewController</string>
+		</dict>
+		<dict>
+			<key>Identifier</key>
+			<string>cocoaSubclass</string>
+			<key>Required</key>
+			<true/>
+			<key>Name</key>
+			<string>Subclass of:</string>
+			<key>Description</key>
+			<string>What class to subclass in the new file</string>
+			<key>Type</key>
+			<string>class</string>
+			<key>Default</key>
+			<string>UIViewController</string>
+			<key>FallbackHeader</key>
+			<string>#import &lt;Cocoa/Cocoa.h&gt;</string>
+			<key>Values</key>
+			<array>
+				<string>NSViewController</string>
+			</array>
+		</dict>
+		<dict>
+			<key>Identifier</key>
+			<string>prefix</string>
+			<key>Required</key>
+			<true/>
+			<key>Name</key>
+			<string>Prefix for Manager, Model, Enums:</string>
+			<key>Description</key>
+			<string>Prefix name attached to Manager, Model, Cells, Enums</string>
+			<key>Type</key>
+			<string>text</string>
+			<key>Default</key>
+			<string>Custom</string>
+		</dict>
+	</array>
+	<key>Platforms</key>
+	<array>
+		<string>com.apple.platform.iphoneos</string>
+	</array>
+	<key>Description</key>
+	<string>Custom Table View Controller</string>
+	<key>Summary</key>
+	<string>Custom Table View Controller with manager, data model</string>
+	<key>SortOrder</key>
+	<string>30</string>
+	<key>AllowedTypes</key>
+	<array>
+		<string>public.swift-source</string>
+	</array>
+	<key>Concrete</key>
+	<true/>
+	<key>DefaultCompletionName</key>
+	<string>JRCustomVC</string>
+	<key>___FILEBASENAME___.swift</key>
+	<dict>
+		<key>Group</key>
+		<array>
+			<string>Controller</string>
+		</array>
+		<key>Path</key>
+		<string>___FILEBASENAME___.swift</string>
+	</dict>
+	<key>___FILEBASENAME___.xib</key>
+	<dict>
+		<key>Group</key>
+		<array>
+			<string>Controller</string>
+		</array>
+		<key>Path</key>
+		<string>___FILEBASENAME___.xib</string>
+	</dict>
+	<key>___VARIABLE_prefix___Mgr.swift</key>
+	<dict>
+		<key>Group</key>
+		<array>
+			<string>Manager</string>
+		</array>
+		<key>Path</key>
+		<string>___VARIABLE_prefix___Mgr.swift</string>
+	</dict>
+	<key>___VARIABLE_prefix___BaseCell.swift</key>
+	<dict>
+		<key>Group</key>
+		<array>
+			<string>View</string>
+		</array>
+		<key>Path</key>
+		<string>___VARIABLE_prefix___BaseCell.swift</string>
+	</dict>
+	<key>___VARIABLE_prefix___BaseCell.xib</key>
+	<dict>
+		<key>Group</key>
+		<array>
+			<string>View</string>
+		</array>
+		<key>Path</key>
+		<string>___VARIABLE_prefix___BaseCell.xib</string>
+	</dict>
+	<key>___VARIABLE_prefix___SeparatorCell.swift</key>
+	<dict>
+		<key>Group</key>
+		<array>
+			<string>View</string>
+		</array>
+		<key>Path</key>
+		<string>___VARIABLE_prefix___SeparatorCell.swift</string>
+	</dict>
+	<key>___VARIABLE_prefix___SeparatorCell.xib</key>
+	<dict>
+		<key>Group</key>
+		<array>
+			<string>View</string>
+		</array>
+		<key>Path</key>
+		<string>___VARIABLE_prefix___SeparatorCell.xib</string>
+	</dict>
+</dict>
+</plist>
